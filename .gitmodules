@@ -4,3 +4,9 @@
 [submodule ".vim/colors/vim-quantum"]
 	path = .vim/colors/vim-quantum
 	url = https://github.com/tyrannicaltoucan/vim-quantum.git
+[submodule "vim-quantum"]
+	path = vim-quantum
+	url = https://github.com/tyrannicaltoucan/vim-quantum.git
+[submodule ".vim/vim-quantum"]
+	path = .vim/vim-quantum
+	url = https://github.com/tyrannicaltoucan/vim-quantum.git

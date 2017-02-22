@@ -9,7 +9,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'tyrannicaltoucan/vim-quantum'
 
 call vundle#end()
 
