@@ -1,6 +1,6 @@
 dir=~/.dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".zshrc .gitconfig .gitignore_global"
+files=".zshrc .gitconfig .gitignore_global .vimrc .vim"
 ##########
 
 # create dotfiles_old in homedir
@@ -21,9 +21,6 @@ for file in $files; do
     ln -sv $dir/$file ~
 done
 
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-
-chsh -s /bin/zsh
 
 source ~/.zshrc
 # source ~/.vimrc
