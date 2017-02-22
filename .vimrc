@@ -28,6 +28,7 @@ let g:ctrlp_max_files = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme='dracula'
 set laststatus=2
 set ttimeoutlen=50
 
@@ -65,7 +66,7 @@ set hidden
 
 " COLORS
 set background=dark
-colorscheme quantum
+colorscheme dracula
 if has("termguicolors")
   set termguicolors
 endif
