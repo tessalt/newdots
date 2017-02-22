@@ -9,6 +9,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 
@@ -27,7 +28,6 @@ let g:ctrlp_max_files = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='quantum'
 set laststatus=2
 set ttimeoutlen=50
 

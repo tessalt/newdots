@@ -18,7 +18,7 @@ if !exists('g:quantum_black')
 endif
 
 if g:quantum_black
-    let s:gray1 = ['#101010', 234]
+    let s:gray1 = ['#080808', 234]
     let s:gray2 = ['#272b2c', 236]
     let s:gray3 = ['#394040', 238]
     let s:gray4 = ['#5e696a', 242]
