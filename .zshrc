@@ -5,6 +5,8 @@ ZSH_THEME="tessa"
 plugins=(git)
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/.rbenv/bin:/.rbenv/plugins/ruby-build/bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
 
 eval "$(rbenv init -)"
 

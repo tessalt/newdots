@@ -4,3 +4,5 @@
 	name = Tessa Thornton
   email = tessathornton@gmail.com
   editor = vim
+[core]
+	editor = vim

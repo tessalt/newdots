@@ -63,6 +63,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set hidden
+set mouse=a
 
 " COLORS
 set background=dark
