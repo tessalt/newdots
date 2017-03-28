@@ -1,3 +1,5 @@
+export ZSH=/Users/tessathornton/.oh-my-zsh
+
 ZSH_THEME="tessa"
 
 plugins=(git)
@@ -21,4 +23,5 @@ alias pbranch='echo "$(current_branch)" | pbcopy'
 alias be='bundle exec'
 alias sourceme='source ~/.zshrc'
 alias vi='vim'
+source $ZSH/oh-my-zsh.sh
 
