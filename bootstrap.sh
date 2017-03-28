@@ -21,6 +21,7 @@ for file in $files; do
     ln -sv $dir/$file ~
 done
 
+ln -sv tessa.zsh-theme ~/.oh-my-zsh/themes
 
 source ~/.zshrc
 # source ~/.vimrc

@@ -1,12 +1,8 @@
-export ZSH=$HOME/.dotfiles/oh-my-zsh
-
 ZSH_THEME="tessa"
 
 plugins=(git)
 
 export PATH=/Applications/Postgres.app/Contents/Versions/9.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/.rbenv/bin:/.rbenv/plugins/ruby-build/bin:$PATH
-export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
 
 eval "$(rbenv init -)"
 
@@ -26,4 +22,3 @@ alias be='bundle exec'
 alias sourceme='source ~/.zshrc'
 alias vi='vim'
 
-source $ZSH/oh-my-zsh.sh
