@@ -10,6 +10,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'tpope/vim-commentary'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 
@@ -22,7 +25,7 @@ let g:ctrlp_match_window_bottom = 1
 let g:ctrlp_match_window_reversed = 1
 let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_custom_ignore = 'node_modules/\|build\|DS_Store\|bundle\|lib\|dist'
+let g:ctrlp_custom_ignore = 'node_modules/\|build\|DS_Store\|bundle\|dist\|tmp'
 let g:ctrlp_follow_symlinks = 1
 let g:ctrlp_max_files = 0
 let g:airline#extensions#tabline#enabled = 1
